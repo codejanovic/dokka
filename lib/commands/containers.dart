@@ -24,9 +24,8 @@ class ContainersListCommand extends CliCommand {
     argParser.addFlag('all', abbr: 'a');
   }
 
-  // TODO: implement description
   @override
-  String get description => null;
+  String get description => 'lists containers';
 
   @override
   String get name => 'list';
@@ -49,11 +48,9 @@ class ContainersListCommand extends CliCommand {
 
 class ContainersStopCommand extends CliCommand {
 
-  // TODO: implement description
   @override
-  String get description => null;
+  String get description => 'stops containers';
 
-  // TODO: implement name
   @override
   String get name => 'stop';
 
@@ -80,11 +77,9 @@ class ContainersStopCommand extends CliCommand {
 
 class ContainersStartCommand extends CliCommand {
 
-  // TODO: implement description
   @override
-  String get description => null;
+  String get description => 'starts containers';
 
-  // TODO: implement name
   @override
   String get name => 'start';
 
